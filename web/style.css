@@ -1,20 +1,39 @@
-html {
-  background-color: #e8eae4;
+body {
   font-family: monospace;
+  background: linear-gradient(to bottom, #ffffff 0%, #dcdbd8 100%);
 }
 
 * {
 }
 
-img {
-  width: 10%;
-  height: 10%;
+header {
+  background: linear-gradient(to bottom, #ffffff 0%, #d2dfda 100%);
+  height: 200px;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100% !important;
 }
 
+nav {
+  float: right;
+}
+
+.logo-top {
+  width: 10%;
+  height: 10%;
+  border-radius: 3%;
+  min-height: 180px;
+  min-width: 180px;
+  max-height: 10%;
+  max-width: 10%;
+  margin: 6px;
+}
 .hamburger {
   width: 35px;
   height: 5px;
-  background-color: #ec521f;
+  background-color: #ef4625;
   margin: 6px 0;
   transition: all 0.3s;
 }
@@ -58,4 +77,14 @@ footer {
 .line {
   width: 100%;
   border: 1px black solid;
+}
+
+.about {
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.services {
+  margin: 1rem;
+  padding: 2rem;
 }

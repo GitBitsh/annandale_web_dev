@@ -1,0 +1,26 @@
+$font-family-sans-serif: 'Open Sans',
+sans-serif;
+$font-family-serif: 'Merriweather',
+serif;
+$font-family-monospace: 'Roboto Mono',
+monospace;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 700;
+$headings-line-height: 1.1;
+$headings-color: $gray-900;
+$headings-margin-bottom: $spacer;
+$paragraph-margin-bottom: $spacer;
+$blockquote-small-color: $gray-600;
+$blockquote-font-size: $font-size-base * 1.25;
+$blockquote-border-color: $gray-300;
+$hr-border-color: $gray-300;
+$hr-margin-y: $spacer;
+$hr-opacity: .25;
+$hr-height: 1px;
+$hr-margin-bottom: $spacer;
+$btn-font-weight: 700;
+$btn-box-shadow: 0 2px 0 rgba(0, 0, 0, .045);
+$btn-focus-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
